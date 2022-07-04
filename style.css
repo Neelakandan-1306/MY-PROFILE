@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Fira+Sans+Condensed:ital,wght@1,300&family=Josefin+Sans:wght@300&family=Overpass:wght@300&family=Roboto+Slab:wght@300&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#CAE7DF;
+    font-family: 'Bitter', serif;
+font-family: 'Fira Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Overpass', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Varela Round', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between; 
+    align-content: space-between;
+    align-items: center;
+    list-style: none;  
+}
+#logo-img img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+}
+nav ul li{
+    margin: 20px;
+}
+#bio img{
+    width: 300px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+}
+a:hover{
+    color: rgb(245, 0, 0);
+}
+.header {
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(230, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bio h2{
+    font-size: xx-large;
+    color: white;
+    background-color:#292930 ;
+    padding: 15px;
+} 
+#bio p{
+    font-size: larger;
+    padding: 10px;
+    padding: 15px;
+}
+#hey{
+    font-size: x-large;
+}
+#bio{
+        display: flex;
+}
+
+#portfiolio h1{
+    background-color: #292930 ;
+    color: white;
+    padding: 10px;
+}
+#hot{
+    color: white;
+}
+#portfiolio h3{
+    padding: 20px;
+}
+#portfiolio p{
+    font-size: larger;
+}
+#eren{
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 275px;
+    height: 385px;
+    margin: 80px;
+}
+#strength{
+    padding: 20px;
+}
+#intro h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+#intro h4{
+    text-align: center;
+    padding: 15px;
+}
+#contact img{
+    width: 50px;
+    height: 50px;
+}
+footer li a{
+    text-decoration: none;
+    color: black;
+}
+footer h2{
+    background-color: #292930 ;
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
+}
+footer li{
+    font-size: larger;
+    padding: 10px;
+}
+footer h6{
+    font-size: large;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    list-style: none;
+}
+nav{
+    background-color: black;
+}
+#SKILLS h1{
+    color: white;
+    font-size: x-large;
+    padding: 10px;
+}
+#thala{
+    display: flex;
+}
+#SKILLS ul{
+    padding-right: 200px;
+}
+#thala ul{
+    font-size: large;
+    padding: 10px;
+}
+#thala p{
+      font-size: large;
+      padding: 10px;
+}
+#SKILLS{
+    display: flex;
+}
+
+#portfiolio{
+padding: 10px;
+}
+#SKILLS{
+    padding: 10px;
+}
+#toy{
+    padding: 10px;
+    list-style: none;
+}
+#SKILLS ol{
+    font-size: x-large;
+}
+a{
+    color: black;
+    text-decoration-color: black;
+    text-decoration: none;
+}
+#SKILLS h2{
+    padding: 10px;
+    font-size: x-large;
+}
+#hey{
+    padding: 10px;
+    list-style: none;
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+    webkit-appearance: none;
+   background-color: rgb(108, 214, 2);
+}
+::-webkit-progress-value{
+    background-color: rgb(236, 103, 70);
+}
+#pad1{
+    padding-left: 10px;
+}
+#pad2{
+    padding-left: 60px;
+}
+#three{
+    list-style: ;
+    padding-left: 150px;
+}
+
